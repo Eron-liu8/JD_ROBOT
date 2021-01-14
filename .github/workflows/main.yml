@@ -1,3 +1,4 @@
+/*
 # File: .github/workflows/repo-sync.yml
 name: sync-sazs34-scripts
 on:
@@ -27,3 +28,4 @@ jobs:
           source_branch: "master"
           destination_branch: "main"
           github_token: ${{ github.event.client_payload.PAT || secrets.PAT }}
+*/
