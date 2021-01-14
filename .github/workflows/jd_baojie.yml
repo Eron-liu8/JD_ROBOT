@@ -10,7 +10,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: baojie
+    types: baojie.js
 jobs:
   build:
 
