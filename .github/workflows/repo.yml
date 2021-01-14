@@ -1,4 +1,4 @@
-/*
+
 # File: .github/workflows/repo-sync.yml
 name: sync-快捷指令大全
 on:
@@ -28,4 +28,3 @@ jobs:
           source_branch: "main"
           destination_branch: "main"
           github_token: ${{ github.event.client_payload.PAT || secrets.PAT }}
-*/
