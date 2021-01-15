@@ -1,16 +1,16 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: 宝洁美发屋
+name: 保洁
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 8 * * *'
+    - cron: '2 0 * * *'
   watch:
     types: started
   repository_dispatch:
-    types: car
+    types: baojie
 jobs:
   build:
 
@@ -35,7 +35,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【宝洁美发屋】'
+      - name: '运行 【京东领现金】】'
         run: |
           node jd_baojie.js
         env:
